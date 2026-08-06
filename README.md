@@ -1,7 +1,7 @@
-# hamsci-hardware
-A template repository for documenting HamSCI hardware. 
+# HFRx
+Software Defined Radio receiver for the HamSCI Personal Space Weather Station.
 
-## [Check out the example documentation pages here.](https://hamsci.github.io/HFRx)
+## [Check out the documentation pages here.](https://hamsci.github.io/HFRx)
 
 - [X] Create a new repository using this template.
 - [ ] Update docs/_config.yml with information about the specific hardware you're documenting.

@@ -4,7 +4,7 @@ Software Defined Radio receiver for the HamSCI Personal Space Weather Station.
 ## [Check out the documentation pages here.](https://hamsci.github.io/HFRx)
 
 - [X] Create a new repository using this template.
-- [ ] Update docs/_config.yml with information about the specific hardware you're documenting.
+- [X] Update docs/_config.yml with information about the specific hardware you're documenting.
 - [ ] Populate the docs pages. 
 - [ ] Edit CITATION.cff file.
 - [ ] [Select a license](https://choosealicense.com/non-software/) and add a LICENSE.txt file.

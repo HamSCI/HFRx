@@ -11,7 +11,7 @@ Software Defined Radio receiver for the HamSCI Personal Space Weather Station.
 - [ ] Update this README by filling out the table below (from [_HardwareX_](https://doi.org/10.5281/zenodo.3364474)) and deleting this checklist.
 - [X] Under Settings>Pages, set this to deploy as a Github page with main/docs as the root directory. You can find an example screenshot [here](https://github.com/HamSCI/hamsci-hardware/blob/main/docs/assets/images/deployment.png).
 - [ ] Verify that the documentation pages are published on hamsci.github.io.
-- [ ] When the repository is ready for release, [synchronize to a Zenodo repository](https://help.zenodo.org/docs/github/enable-repository/) and add DOI badge here.  
+- [ ] When the repository is ready for release, [synchronize to a Zenodo repository](https://help.zenodo.org/docs/github/enable-repository/) and add DOI badge here.   
 
 
 |  			Hardware name 		          |  			Please specify the name 			of the hardware that you invented/customized 		                                                                                                                                                                                                                                                                                                                                                                           |

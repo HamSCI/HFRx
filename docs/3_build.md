@@ -52,7 +52,6 @@ The components are mounted on an aluminum plate held in place by 3D printed hold
 In this instance the system components are mounted on a [6"x8"x1/16" 6061/T651 Aluminum Sheet Metal aluminum plate](https://www.amazon.com/PATIKIL-Aluminum-Protective-Rectangle-Lndustry/dp/B0DHR7TLNX?pd_rd_w=YnrUL&content-id=amzn1.sym.6bb79025-718b-4ad1-b8ec-68027fb35564&pf_rd_p=6bb79025-718b-4ad1-b8ec-68027fb35564&pf_rd_r=T4XHH2GPPG2ZPEGDFS6F&pd_rd_wg=xPK13&pd_rd_r=6daeec44-af98-4005-ae55-ffafdbc088e7&pd_rd_i=B0DHR7TLNX&ref_=pd_bap_d_grid_rp_hxwhrp_sspa_dk_bia_0_18_t&th=1) and contained in a [Zultech 9.1"x7.3"x3.9" Project Enclosure](https://www.amazon.com/dp/B08Y7GWKGR) using metric M3 hardware  
 
 ![image](./assets/images/K3DFD-component-layout.png)
-<img width="1143" height="796" alt="image" src="https://github.com/user-attachments/assets/4a2492c1-d869-4780-b1e3-4608127e056e" />  
 
 ### Drill Baseplate Mounting Holes
 Use a 4mm drill bit to open holes in the aluminum base plateplate and use M3 screws and nuts to place and affix the 3D hold downs. 
@@ -63,7 +62,7 @@ You can use these .stl file to print the component hold down parts that affix th
 [.stl file for RX888 MkII SDR](https://drive.google.com/file/d/11iTI1NAHCLrqhb-Ud5RXdYGEvIffmVQV/view?usp=sharing)  
 [.stl file for Leo Bodnar LBE-1420](https://drive.google.com/file/d/18yck0PaMf3_px7qnixWy3uBU1HxInkka/view?usp=sharing)  
 [.stl file for Turn Island Systems 30Mhz Filter-Preamp](https://drive.google.com/file/d/1gPSx4msNTrLTgFopmkgazG57UBLr8tAZ/view?usp=sharing)  
-<img width="1143" height="767" alt="image" src="https://github.com/user-attachments/assets/6318063e-6c47-48c7-a323-7d009c39c269" />  
+
 ![image](./assets/images/K3DFD-hardware.png)
 
 ## Perform Required RX888 clock-Thermal Kit Installation, DXE-RSEAV1 Antenna Bias-T Disable and LBE-1420 Clock Freq Configuration
@@ -76,17 +75,16 @@ Remove the endplate from the RX888 MkII SDR on the side with the USB socket. As 
 
 Also, attach the rubber pad to the underside of the SDR's board and the copper tape to the exposed side of the pad. This side will face and press against the body of the SDR to improve heat transfer.   
 
-<img width="1143" height="585" alt="image" src="https://github.com/user-attachments/assets/c923a7ea-6167-4dcb-9652-7dc2c4a7bda2" />
 ![image](./assets/images/K3DFD-clockmod.png)
 ---
 ## Assemble and Configure the DX Engineering DXE-RSEAV-1 Short Vertical Active Antenna  
 1. The first task is to change the internal J2 and J3 jumper settings to disable the Bias-T power source feature. Move both J2 and J3 jumpers from the 1-2 position to the 2-3 position. Then the required 12VDC will be supplied to the type-F connector on the front of the antenna box.  
-<!-- <img width="1143" height="796" alt="image" src="https://github.com/user-attachments/assets/1a676475-a87c-4fe0-bac0-027ff0272290" /> -->
+
 ![image](./assets/images/K3DFD-antenna-board.png)
 
 3. Modifications to the outside mounting configuration
 The antenna's physical design is lacking in sufficient protection from rain, snow or other environmental challenges. I have elected to incorporate the entire unit into a sealed ABS utility box, mounted on a 4X4 pressure-treated post. The ground rod is 1/2" common copper pipe driven into the soil to 4'. Since the Bias-T option is deselected via J2 and J3, 12VDC is provided to the lower F connector via a simple adapter to the DC source. Both the RG6 and the 12ga DC wiring are 50' long and have nominal RF loss or voltage drop.  
-<!-- <img width="1554" height="738" alt="image" src="https://github.com/user-attachments/assets/2129ecef-f7f8-46fc-a1df-60e4f9b03f78" /> -->
+
 ![image](./assets/images/K3DFD-antenna-board.png)
 
 ### Configure the Leo Bodnard LBE-1420 GPS clock output
@@ -94,14 +92,14 @@ The antenna's physical design is lacking in sufficient protection from rain, sno
 1. Visit the [Leo Bodnar website](http://www.leobodnar.com/shop/) and select your GPS Disciplined Oscillator model and download the configuration software for your operating system. Note: Use a different PC  than the PSWS Beelink to run the Bodnar configuration software.  
 3. Connect the GPS to your PC — the LED will light up and start the configuration software  
 
-<!-- <img width="452" height="582" alt="image" src="https://github.com/user-attachments/assets/2811b0fa-656c-4631-af6c-79cc22c9bde3" />  -->
+
 ![image](./assets/images/K3DFD-antenna.png)
 
 4. In the `Hz` box, enter `27000000` and click **Set Frequency** > This sets the output to **27 MHz**, which is the required clock frequency for the RX-888  
 5. Disconnect the GPS from your PC  
 ### Confirm LBE-1420 GPSDO via the `Diagnostics` button
 
-<!-- <img width="543" height="445" alt="image" src="https://github.com/user-attachments/assets/9160507b-0668-4c48-b2ff-e8ed64deb28a" /> -->
+
 ![image](./assets/images/K3DFD-LBE-1420.png)
 
 
@@ -116,7 +114,7 @@ Connect the LBE-1420 GPS clock's SMA output to the RX-888 TAPR clock-modified GP
 This completes the required component modifications  
   
 Install Linux Server and WSPRDaemon on the BeeLink SER Pro NUC PC  
-<!-- <img width="1143" height="796" alt="image" src="https://github.com/user-attachments/assets/2f2aa991-23fe-4a95-b3bd-38fa137843d9" /> -->
+
 ![image](./assets/images/K3DFD-Beelink.png)
 
 ## Next Steps -  

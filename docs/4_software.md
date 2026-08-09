@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Calibrate and Test
-permalink: /testing/
+title: Software
+permalink: /software/
 mermaid: true
 ---
 # Installing the wsprdaemon Software: 

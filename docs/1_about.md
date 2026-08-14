@@ -5,9 +5,9 @@ permalink: /about/
 mermaid: true
 ---
 
-# What is a HamSCI HF Personal Space Weather System?
+# What is a HamSCI HFRx Personal Space Weather System?
 
-### The HF HamSCI HF Personal Space Weather System (PSWS) is a purpose-built built, direct-sampling Software Defined Radio (SDR) system able to simultaneously receive and process the full MF and HF bands - from 0.3 to 30 MHz. The PSWS incorporates a commercially available RX-888 MkII 16-bit SDR receiver with supplemental filtering, a GPS Disciplined oscillator and an 'Active' HF receive-only antenna. It uses a Linux Ubuntu computer to run specialized software to process data received by the PSWS for processing and analysis by the HamSCI Citizen Science Project. 
+### The HFRx HamSCI HF Personal Space Weather System (PSWS) is a purpose-built built, direct-sampling Software Defined Radio (SDR) system able to simultaneously receive and process the full MF and HF bands - from 0.3 to 30 MHz. The PSWS incorporates a commercially available RX-888 MkII 16-bit SDR receiver with supplemental filtering, a GPS Disciplined oscillator and an 'Active' HF receive-only antenna. It uses a Linux Ubuntu computer to run specialized software to process data received by the PSWS for processing and analysis by the HamSCI Citizen Science Project. 
 
 At the core of the PSPS is the WSPRDeamon software by Rob Robinette AI6VN, which incorporates Phil Karn's ka9q-radio. This Linux application is designed to allow a PSWS to operate as a reliable, autonomous appliance for Amateur Radio operators and researchers. Its primary function is to decode WSPR and FST4W spots from one or more Software-Defined Radios (SDRs) - including the PSWS's RX888 and reliably upload these spots to public databases like [wsprnet.org](https://www.wsprnet.org) and [wspr.rocks](https://www.wpsr.rocks) The WSPRDaemon project emphasizes high reliability, advanced features, and scientific data collection going beyond the capabilities of applications like WSJT-X.
 

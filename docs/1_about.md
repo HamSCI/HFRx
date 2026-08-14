@@ -17,4 +17,4 @@ The HFRx PSWS makes two primary types of observations: HF Doppler measurements (
 
 Here is a very thorough introduction to the HamSCI HFRx PSWS by Gwyn G3ZIL - Return here after you've watched the video and continue with the 'Materials' section
 
-[<img width="1399" height="600" alt="image" src="https://github.com/user-attachments/assets/d8b092b5-aef6-4c5b-937b-6600116442ea" />](https://youtu.be/CAIQzHuQVOQ?si=VF8KUc8So3yxpXWI)
+[<img width="1399" height="580" alt="image" src="https://github.com/user-attachments/assets/d8b092b5-aef6-4c5b-937b-6600116442ea" />](https://youtu.be/CAIQzHuQVOQ?si=VF8KUc8So3yxpXWI)

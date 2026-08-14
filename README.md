@@ -1,5 +1,5 @@
 # HFRx
-Software Defined Radio receiver for the HamSCI Personal Space Weather Station.
+Software Defined Radio Receiver for the HamSCI Personal Space Weather Station.
 
 ## [Check out the documentation pages here.](https://hamsci.github.io/HFRx)
 

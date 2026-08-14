@@ -15,6 +15,6 @@ Each HFRx PSWS becomes a part of geographically distributed, multi-instrument sy
 
 The HFRx PSWS makes two primary types of observations: HF Doppler measurements (measurements of the Doppler shifts of the transmissions of HF WWV government time standard stations and WSPR/FST4W decodes (signal and noise estimates for each WSPR spot, and Doppler shift measurements, when precision frequency references are available).   
 
-Here is a very thorough introduction to the HamSCI HFRx PSWS by Gwyn G3ZIL - Return here after you've watched the video and continue with the 'Materials' section
+Here is a very thorough [Introduction to the HamSCI HFRx PSWS by Gwyn G3ZIL Deployment, Development and Data](https://youtu.be/CAIQzHuQVOQ?si=VF8KUc8So3yxpXWI) - Return here after you've watched the video and continue with the 'Materials' section
 
-[<img width="1399" height="580" alt="image" src="https://github.com/user-attachments/assets/d8b092b5-aef6-4c5b-937b-6600116442ea" />](https://youtu.be/CAIQzHuQVOQ?si=VF8KUc8So3yxpXWI)
+[<img width="1399" height="580" alt="image" src="https://github.com/user-attachments/assets/d8b092b5-aef6-4c5b-937b-6600116442ea" />]

@@ -15,7 +15,8 @@ Each PSWS becomes a part of geographically distributed, multi-instrument system 
 
 The PSWS makes two primary types of observations: HF Doppler measurements (measurements of the Doppler shifts of the transmissions of HF WWV government time standard stations and WSPR/FST4W decodes (signal and noise estimates for each WSPR spot, and Doppler shift measurements, when precision frequency references are available).   
 
-<img width="994" height="622" alt="image" src="https://github.com/user-attachments/assets/a79c66d1-3f50-46d4-aa42-daddd6857e78" />
+<img width="986" height="6256" alt="image" src="https://github.com/user-attachments/assets/66a9b369-b5d2-48f6-b652-8e026630b8a3" />
+
 
 ### Modifications to the stock RX-888 SDR for use as a HamSCI HFRx PSWS: 
 

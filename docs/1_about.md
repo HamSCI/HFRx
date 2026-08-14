@@ -15,20 +15,6 @@ Each PSWS becomes a part of geographically distributed, multi-instrument system 
 
 The PSWS makes two primary types of observations: HF Doppler measurements (measurements of the Doppler shifts of the transmissions of HF WWV government time standard stations and WSPR/FST4W decodes (signal and noise estimates for each WSPR spot, and Doppler shift measurements, when precision frequency references are available).
 
-## Modifications to the stock RX-888 SDR for use as a HamSCI PSWS: 
+### Modifications to the stock RX-888 SDR for use as a HamSCI HFRx PSWS: 
 
-While the stock RX-888 is a very capable SDR, certain modifications are needed to create a PSWS. To provide the required timing accuracy necessary, a sampling clock with an accuracy of 10 mHz - which is higher what the RX-888 internal oscillator provides - is required. The Leo Bodnar LB1420 GPSDO provides that accuracy and is connected to the RX-888's circuit board via a special interface. Additionally, the RX-888 SDR has inadequate temperature control which can be addressed by adding a large thermal pad to the bottom of the board. [The RX888 Clock Kit and Thermal Pad ](https://tapr.org/product/rx888-clock-kit-and-thermal-pad/) contains the supplies to make these modifications, and the manual for it is available online [RX888 Clock Kit Manual](https://turnislandsystems.com/wp-content/uploads/2024/05/RX888-Kit-2.pdf). 
-
-
-
-participant Paul Elliott WB6CXC).
-
-
-
-
-
-
-
-
-
-
+While the stock RX-888 is a very capable SDR, certain modifications are needed to create a HFRx PSWS. To provide the required timing accuracy necessary, a sampling clock with an accuracy of 10 mHz - which is higher what the RX-888 internal oscillator provides - is required. The Leo Bodnar LB1420 GPSDO provides that accuracy and is connected to the RX-888's circuit board via a special interface. Additionally, the RX-888 SDR has inadequate temperature control which can be addressed by adding a large thermal pad to the bottom of the board. [The RX888 Clock Kit and Thermal Pad ](https://tapr.org/product/rx888-clock-kit-and-thermal-pad/) contains the supplies to make these modifications, and the manual for it is available online [RX888 Clock Kit Manual](https://turnislandsystems.com/wp-content/uploads/2024/05/RX888-Kit-2.pdf). More information in the Build section.

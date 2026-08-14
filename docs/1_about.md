@@ -14,6 +14,8 @@ At the core of the PSPS is the WSPRDeamon software by Rob Robinette AI6VN, which
 Each PSWS becomes a part of geographically distributed, multi-instrument system for ground-based space environment measurements. Data from this node is aggregated with submissions from other PSWS nodes into a central HamSCI database for space science research. This data is useful for studying the behavior of the ionosphere.
 
 The PSWS makes two primary types of observations: HF Doppler measurements (measurements of the Doppler shifts of the transmissions of HF WWV government time standard stations and WSPR/FST4W decodes (signal and noise estimates for each WSPR spot, and Doppler shift measurements, when precision frequency references are available).
+<img width="985" height="673" alt="image" src="https://github.com/user-attachments/assets/da653079-7aad-4b01-ab19-cf28f7b88803" />
+
 
 ### Modifications to the stock RX-888 SDR for use as a HamSCI HFRx PSWS: 
 

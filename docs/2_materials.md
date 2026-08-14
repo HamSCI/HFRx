@@ -5,7 +5,7 @@ permalink: /materials/
 ---
 ## Introduction
 {:.no_toc}
-Describe the materials and tools required. Examples below.
+Building the HFRx PSWS requires acquiring the required components. At this time there is no single source of the necessary items needed to successfully build and commission a successful node. But the parts are generally easy to purchase through HamSCI partner sources like Turn Island System, TAPR and even Amazon. The most challenging item to source is the RX-888 MKII SDR. Some builders have had good success ordering their SDR from SDRSource.com.
 
 ## Table of Contents 
 {:.no_toc}

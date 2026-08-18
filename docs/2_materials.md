@@ -32,20 +32,12 @@ You should have a basic set of hand tools of the kind you might use to build a t
 * [Anti-static ESD wrist strap](https://www.amazon.com/gp/aw/d/B0042TLA90/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c0e32b6a0381d72fc649bba20b22aa10&hsa_cr_id=0&qid=1787067486&sr=1-2-9e67e56a-6f64-441f-a281-df67fc737124&i=aps&aref=TOcSSHbF6V&ref_=sbx_s_sparkle_sbtcd_asin_1_img&pd_rd_w=Enp7K&content-id=amzn1.sym.8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68%3Aamzn1.sym.8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68&pf_rd_p=8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68&pf_rd_r=7C4AX12VJD8QVESB6NE5&pd_rd_wg=0KGDk&pd_rd_r=09e1c5e7-fa9d-45a9-a998-d74b25fdc194&th=1) - Inexpensive security against electronics parts damage
 * Hot glue gun - very helpful for securing parts temporarily. Use sparingly.
 * 3D printer - Handy for producing the 'official' component hold-downs but not necessary.
-* Electronics tweezers - a must-have!
+* [Electronics tweezers](https://www.amazon.com/CHERALKEST-Precision-Tweezers-Anti-Static-Stainless/dp/B0D1V6R9QH/ref=sr_1_2?crid=RR3C9IEA721P&dib=eyJ2IjoiMSJ9.7zIt8u2gYsz7ifp7AJggx6Tv8kfd0awLjuld4TImKk5U_iOeDXwFRxGGnCbGO6GV80v_Y_lJ7OdXBnhFJg1Fc_WaEyvJP1Ohg3ZYZ-isWC7dSwy_pDRSidXNKMILd3wiXPYp3ETYucyg_czlqBDov-5i1Wfxb-vR6I3mbZMbUE-gTv6X-rC3U9HlBP6YVcgrWleEJr9_Ce-GS1pu8j4cokSbWUQCiyc-_q4zhXTRM9HE1wm29oHyxcZbm66705yLXdxT3IB3secw7DmGmvM_L8zJb-3GNZ2lPuB45sto2Nc.ILHCYHListS19Q63Dy3jjxBWDBsQbYEmxNFCiPSnDmU&dib_tag=se&keywords=electronics+tweezers+set+precision&qid=1787068677&sprefix=electronics+tw%2Caps%2C135&sr=8-2)   
 * [Precision wire cutters - Stripper Combo](https://www.amazon.com/WGGE-Precision-Supplementary-Stripping-Diagonal/dp/B0C4X4J5SG/ref=sxbs_pa_sp_search_thematic_btf_sspa?content-id=amzn1.sym.3b3ab630-25b6-4e2e-83b0-1bdbe008f411%3Aamzn1.sym.3b3ab630-25b6-4e2e-83b0-1bdbe008f411&crid=3VJH3RED5J0N8&cv_ct_cx=wire+stripers&keywords=wire+stripers&pd_rd_i=B0C4X4J5SG&pd_rd_r=fbde6738-2e4d-4faa-b6b6-7d0e7fdc6acc&pd_rd_w=bd2wu&pd_rd_wg=TngFe&pf_rd_p=3b3ab630-25b6-4e2e-83b0-1bdbe008f411&pf_rd_r=2PZQPEMTM1WEDZA32ZMM&qid=1787068464&s=electronics&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=wire+stripers%2Celectronics%2C165&sr=1-4-fb395260-7243-4e30-82ce-3176e35831b6-spons&aref=H4HiQnGQnj&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWNfYnRm&psc=1)
-* Electrical tape (for color-coding, need all 9 colors)
+* [Color Electrical Tape for color-coding](https://www.amazon.com/Romeda-Electrical-Commercial-Industrial-environments/dp/B0D1C74W83/ref=sr_1_1?crid=25MWMCMEUL6IH&dib=eyJ2IjoiMSJ9.mrhYoNpn29NeFYwfWenWqemcdB_ptAgzCCD5qj4TMwMsWI5nOpwQ4oQv11DczXedx7aBUmNVbYYNJeyepEZfWopZpGruv-gS1ncyI_FwmY9ToIhAHy4rdy7PP6_J8cH8ex64YknaxmwrYOMwToZNoikmCcZGkB0ZRAeLVcHy4T6giLPLDS3Hj8KJff-_dzOUsnKknPLCYr6VmaaphYXKRJudL1YrWDkCl8CXhzRMDvg.VdzLcM8P5gvKp6kZFfh7D6a7BRoYN4wAuCtSCmUA-Ss&dib_tag=se&keywords=color%2Belectrical%2Btape&qid=1787068740&sprefix=color%2Belectric%2Caps%2C138&sr=8-1&th=1) - Handy for identifying cables and connectors
 * micro USB cable
 
-
-### Antenna
-* wire cutters
-* potato cannon
-
-## Parts
-
-### Receiver
-* Kit
+## Components
 
 ### Antenna
 * long wire

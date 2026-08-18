@@ -7,7 +7,9 @@ permalink: /materials/
 {:.no_toc}
 At this time there is no single source of the necessary items needed to successfully build and commission a successful HFRx PSWS. The components and materials are generally easy to purchase through HamSCI partner sources like Turn Island System, TAPR and even Amazon. The most challenging item to source is the RX-888 MKII SDR. Some builders have had good success ordering their SDR from [opensourcesdrlabs.com.](https://opensourcesdrlab.com/).   
 
-You won't need a 
+You won't degree in engineering or science, but you should be comfortable with small electronic kit construction and the essentials of Amateur Radio. If you have passed your Tech Exam, you should be able to build your HFRx PSWS.  
+
+One important thing to keep in mind is that there is no 'required' way to physically assemble the PSWS. The materials listed are items represent a 'recommended' but not required build design.    
 
 ## Table of Contents 
 {:.no_toc}
@@ -15,7 +17,7 @@ You won't need a
 {:toc}
 
 
-## Site Needs
+## Building Space Requirements -
 **Be specific about this!**
 * Internet connection
 * Place to deploy antenna

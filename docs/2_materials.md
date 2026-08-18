@@ -27,7 +27,7 @@ One of the best helpers in any electronics assembly working area is a [silicon m
 
 A well-organized working/assembly area is a must-   
 
-<img width="1334" height="960" alt="image" src="https://github.com/user-attachments/assets/8052c275-fa9b-4400-b3e6-ff4124be651c" />
+<img width="1334" height="700" alt="image" src="https://github.com/user-attachments/assets/8052c275-fa9b-4400-b3e6-ff4124be651c" />
 
 
 ## Tools & Materials

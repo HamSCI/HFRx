@@ -26,10 +26,12 @@ One of the best helpers in any electronics assembly working area is a [silicon m
 * A Workstation or Laptop PC to configure the Leo Bodnar LBE-1420 GPS Disciplined Oscillator.
 
 
-## Tools & Materials
+## Recommended Tools & Materials
 You should have a basic set of hand tools of the kind you might use to build a typical Amateur Radio kit. A soldering station is nice to have but as the PSWS is modular, it isn't required. Use of plastic wire-ties is necessary for cable control. A [Cable Tie Gun - Fastening and Cutting Tool](https://www.amazon.com/Fastening-Cutting-Handle-Special-Fasten/dp/B07G5X7DMC/ref=sr_1_5_sspa?crid=2W3RZV47WN3DI&dib=eyJ2IjoiMSJ9.pARgQOFC76OlA1oIsGJrbrIGXvqGuASuC97Aw3o69Y2dCMcuw9qm_56UePqA-5QAZtfQnKbTF8w-x4pCKe4qR1Cj3Y6vfB9W7fN05RqiEqSNf5qjyF06TRPLm1O6_oVZB-fZCoanvAI0N3WRo-1XJJ-oWaHHZk-N5jdf0_gwu9H_1gpwvdZxvUAAHBrq2kP-SgsmPJwAXHUIa-SZt-25_P0J5DGvZnwp5QHpPWesO0C6pBa1Oo6IEB3ENDqZR5hamIcC7EbCT0tBP8fUpGQiACFqxLuCB38PwtgiFWlDCDk.XLayL4Q8idA17n4ekRUMOZ4TBjnrQIlB_hCpnYlFMP4&dib_tag=se&keywords=wire+tie+tool&qid=1787066023&s=hi&sprefix=wire+tie+tool%2Ctools%2C137&sr=1-5-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1) is helpful.
 
-### Necessities
+### Tools - 
+* Hand Tools - Basic set of Phillips head scredrivers, needle-nose pliers, etc.
+* SMA connector 5/16 inch wrench
 * [Anti-static ESD wrist strap](https://www.amazon.com/gp/aw/d/B0042TLA90/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c0e32b6a0381d72fc649bba20b22aa10&hsa_cr_id=0&qid=1787067486&sr=1-2-9e67e56a-6f64-441f-a281-df67fc737124&i=aps&aref=TOcSSHbF6V&ref_=sbx_s_sparkle_sbtcd_asin_1_img&pd_rd_w=Enp7K&content-id=amzn1.sym.8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68%3Aamzn1.sym.8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68&pf_rd_p=8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68&pf_rd_r=7C4AX12VJD8QVESB6NE5&pd_rd_wg=0KGDk&pd_rd_r=09e1c5e7-fa9d-45a9-a998-d74b25fdc194&th=1) - Inexpensive security against electronics parts damage
 * Hot glue gun - very helpful for securing parts temporarily. Use sparingly.
 * 3D printer - Handy for producing the 'official' component hold-downs but not necessary.
@@ -39,7 +41,7 @@ You should have a basic set of hand tools of the kind you might use to build a t
 * Micro USB cable - Comes with the LBE-1420 GPSDO
 * [White/clear Cable Zip Tie Mount, Ties and Screw kit](https://www.amazon.com/Adhesive-Management-Anchors-Organizer-Holders/dp/B08F7J8CSQ/ref=sxin_19_pa_sp_search_thematic_sspa?content-id=amzn1.sym.83ef33f7-43d2-4b8c-9a54-246573a8f6e0%3Aamzn1.sym.83ef33f7-43d2-4b8c-9a54-246573a8f6e0&crid=VM2H2OPZNRBK&cv_ct_cx=clear%2Bwire%2Bties&keywords=clear%2Bwire%2Bties&pd_rd_i=B08F7J8CSQ&pd_rd_r=1f240147-3213-4f1b-9b9d-47c1e687d055&pd_rd_w=4yLSz&pd_rd_wg=ePzrs&pf_rd_p=83ef33f7-43d2-4b8c-9a54-246573a8f6e0&pf_rd_r=CWTGZS3E6E8GWSD8P6W1&qid=1787069302&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=clear%2Bwire%2B%2Caps%2C152&sr=1-2-e169343e-09af-4d41-85b1-8335fe8f32d0-spons&aref=5YS2jyPfJ9&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1) - Super convenient kit of self-adhesive tie pads, 8" thin ties and screws.
 
-## Components
+### Materials
 
 ### Antenna
 * long wire

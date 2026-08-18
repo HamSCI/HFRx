@@ -27,15 +27,10 @@ Your working space should be well-lit - a magnifying lamp is nice - and secure e
 You should have a basic set of hand tools of the kind you might use to build a typical Amateur Radio kit. A soldering station is nice to have but as the PSWS is modular, it isn't required. Use of plastic wire-ties is necessary for cable control. A [Cable Tie Gun - Fastening and Cutting Tool](https://www.amazon.com/Fastening-Cutting-Handle-Special-Fasten/dp/B07G5X7DMC/ref=sr_1_5_sspa?crid=2W3RZV47WN3DI&dib=eyJ2IjoiMSJ9.pARgQOFC76OlA1oIsGJrbrIGXvqGuASuC97Aw3o69Y2dCMcuw9qm_56UePqA-5QAZtfQnKbTF8w-x4pCKe4qR1Cj3Y6vfB9W7fN05RqiEqSNf5qjyF06TRPLm1O6_oVZB-fZCoanvAI0N3WRo-1XJJ-oWaHHZk-N5jdf0_gwu9H_1gpwvdZxvUAAHBrq2kP-SgsmPJwAXHUIa-SZt-25_P0J5DGvZnwp5QHpPWesO0C6pBa1Oo6IEB3ENDqZR5hamIcC7EbCT0tBP8fUpGQiACFqxLuCB38PwtgiFWlDCDk.XLayL4Q8idA17n4ekRUMOZ4TBjnrQIlB_hCpnYlFMP4&dib_tag=se&keywords=wire+tie+tool&qid=1787066023&s=hi&sprefix=wire+tie+tool%2Ctools%2C137&sr=1-5-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1) is helpful.
 
 
-* Soldering iron
-* Solder
-* Hot air gun/station for electronics. (sometimes called rework station)
-* Hot glue gun
-* 3D printer
-* PVC pipe cutter (can use a saw)
-* PVC cement/solvent
-* Electronics tweezers
-* Fine flush cutters
+* Hot glue gun - very helpful for securing parts temporarily. Use sparingly.
+* 3D printer - Handy for producing the 'official' component hold-downs but not necessary.
+* Electronics tweezers - a must-have!
+* [Precision wire cutters](https://www.amazon.com/WORKPRO-Cutters-Precision-Diagonal-Electronics/dp/B09XTMQXG8/ref=sr_1_1_sspa?crid=1JIPH6J8L14JK&dib=eyJ2IjoiMSJ9.N66P1obNygq9i3j7hkCuEu77janDeoDhp9l9WvHN7evK5NtcrqrHNAAPd7_9lF2Az-A6QCg7MDIU_E_7BANtDELz_DwRw4ikcttR_Ihw9Fjh1i2HJDMAwxUpeyw_yq8lBtpE2VIetek250F6EkK87AeEdwusirelrhiItNPIMoo9-5pEGfyBbvx4iR1mJQjocBz9b0xgmfxsvC4y896wmgq4L_6lBQcTmhG3AYMckjapM-6dcRtuMbH1dOQbJwhlkf_yKEy-Ouj63DAB_lZjuDICKKr8JlJYkhkx55_qVZE.zMiGC2qVl9tuIBpwsFBPKH9qb19I8QPhvRw9voWJEWw&dib_tag=se&keywords=precision%2Bflush%2Bcut%2Bpliers&qid=1787066432&sprefix=flush%2Bcutters&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1) - These are superior to common wire cutters in tight spaces.
 * Wire strippers (22-30 AWG)
 * Electrical tape (for color-coding, need all 9 colors)
 * micro USB cable

@@ -25,14 +25,15 @@ One of the best helpers in any electronics assembly working area is a [silicon m
 * You'll need an Internet connection to download support software and for connectivity for the HFRx PSWS's Beelink Mini PC
 * A Workstation or Laptop PC to configure the Leo Bodnar LBE-1420 GPS Disciplined Oscillator.
 
-A small but organized working/assembly area -   
+A well-organized working/assembly area is a must-   
+
 <img width="1334" height="960" alt="image" src="https://github.com/user-attachments/assets/8052c275-fa9b-4400-b3e6-ff4124be651c" />
 
 
 ## Tools & Materials
 You should have a basic set of hand tools of the kind you might use to build a typical Amateur Radio kit. A soldering station is nice to have but as the PSWS is modular, it isn't required. Use of plastic wire-ties is necessary for cable control. A [Cable Tie Gun - Fastening and Cutting Tool](https://www.amazon.com/Fastening-Cutting-Handle-Special-Fasten/dp/B07G5X7DMC/ref=sr_1_5_sspa?crid=2W3RZV47WN3DI&dib=eyJ2IjoiMSJ9.pARgQOFC76OlA1oIsGJrbrIGXvqGuASuC97Aw3o69Y2dCMcuw9qm_56UePqA-5QAZtfQnKbTF8w-x4pCKe4qR1Cj3Y6vfB9W7fN05RqiEqSNf5qjyF06TRPLm1O6_oVZB-fZCoanvAI0N3WRo-1XJJ-oWaHHZk-N5jdf0_gwu9H_1gpwvdZxvUAAHBrq2kP-SgsmPJwAXHUIa-SZt-25_P0J5DGvZnwp5QHpPWesO0C6pBa1Oo6IEB3ENDqZR5hamIcC7EbCT0tBP8fUpGQiACFqxLuCB38PwtgiFWlDCDk.XLayL4Q8idA17n4ekRUMOZ4TBjnrQIlB_hCpnYlFMP4&dib_tag=se&keywords=wire+tie+tool&qid=1787066023&s=hi&sprefix=wire+tie+tool%2Ctools%2C137&sr=1-5-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9tdGY&psc=1) is helpful.
 
-
+* [Anti-static ESD wrist strap](https://www.amazon.com/gp/aw/d/B0042TLA90/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c0e32b6a0381d72fc649bba20b22aa10&hsa_cr_id=0&qid=1787067486&sr=1-2-9e67e56a-6f64-441f-a281-df67fc737124&i=aps&aref=TOcSSHbF6V&ref_=sbx_s_sparkle_sbtcd_asin_1_img&pd_rd_w=Enp7K&content-id=amzn1.sym.8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68%3Aamzn1.sym.8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68&pf_rd_p=8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68&pf_rd_r=7C4AX12VJD8QVESB6NE5&pd_rd_wg=0KGDk&pd_rd_r=09e1c5e7-fa9d-45a9-a998-d74b25fdc194&th=1) - Inexpensive security against electronics parts damage
 * Hot glue gun - very helpful for securing parts temporarily. Use sparingly.
 * 3D printer - Handy for producing the 'official' component hold-downs but not necessary.
 * Electronics tweezers - a must-have!

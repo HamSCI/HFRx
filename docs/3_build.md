@@ -111,15 +111,8 @@ Connect the LBE-1420 GPS clock's SMA output to the RX-888 TAPR clock-modified GP
 > - 🟢 Green — RX-888 to PC
 
 
-This completes the required component modifications  
-  
-Install Linux Server and WSPRDaemon on the BeeLink SER Pro NUC PC  
+This completes the required component modifications. Next, check the [Software page](../https://hamsci.github.io/HFRx/software/) to configure the Beelink PC with Linux 24.04.n and WSPRDaemon.
 
-![image](./assets/images/K3DFD-Beelink.png)
-
-## Next Steps -  
-### [Follow the HamSCI instructions to configure the Beelink PC with Linux 24.04.n and WSPRDaemon](https://github.com/HamSCI/PSWS_Documentation/wiki/HF-wsprdaemon-Receiver)  
-### Then Return Here for: [Operations](https://github.com/K3DFD-Radio/K3DFD-PSWS/blob/main/operation.md)  
 
 
 

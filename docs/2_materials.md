@@ -28,7 +28,7 @@ One of the best helpers in any electronics assembly working area is a [silicon m
 
 ### Tools
 
-<img width="973" height="550" alt="image" src="https://github.com/user-attachments/assets/d90c35d3-41b4-4a5e-a108-7acace859d7a" />
+<img width="973" height="500" alt="image" src="https://github.com/user-attachments/assets/d90c35d3-41b4-4a5e-a108-7acace859d7a" />
 
 * A basic set of hand tools of the kind you might use to build a typical Amateur Radio kit. A soldering station is nice to have but as the PSWS is modular, it isn't required. Use of plastic wire-ties is necessary for cable control.
 * [Cable Tie Gun - Fastening and Cutting Tool](https://www.amazon.com/dp/B07G5X7DMC) is helpful.

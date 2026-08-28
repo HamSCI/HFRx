@@ -50,6 +50,8 @@ You should have a basic set of hand tools of the kind you might use to build a t
 
 ### Materials
 
+<img width="973" height="602" alt="image" src="https://github.com/user-attachments/assets/5f431599-0557-450c-90d3-4180b52f7f38" />
+
 * [Color Electrical Tape for color-coding](https://www.amazon.com/dp/B0D1C74W83) - Good for color-coding cables and connectors
 * [White/clear Cable Zip Tie Mount, Ties and Screw kit](https://www.amazon.com/dp/B08F7J8CSQ) - Super convenient kit of self-adhesive tie pads, 8" thin ties and screws.
 * [6"x8"x1/16" 6061/T651 Aluminum plate to Mount Components on](https://www.amazon.com/dp/B0DHR7TLNX) - Any stiff board will suffice, but aluminum is recommended.

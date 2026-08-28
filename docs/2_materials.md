@@ -31,8 +31,8 @@ You should have a basic set of hand tools of the kind you might use to build a t
 
 ### Tools - 
 <img width="974" height="420" alt="image" src="https://github.com/user-attachments/assets/d90c35d3-41b4-4a5e-a108-7acace859d7a" />
-* Hand Tools - Basic set of scredrivers, needle-nose pliers, etc.
-* [5/16 inch wrench for SMA connectors](https://www.amazon.com/Capri-Tools-SmartKrome-16-inch-Combination/dp/B01N0JZLU7/ref=sr_1_1crid=3GNUVEXHJC4S8&dib=eyJ2IjoiMSJ9.pIfCIqni7FA4V5QroEjDkKG5mw5DxZnYHQKzDaSSengHZmZMTjXcxpci6hJuawLlyJasYR5oY7wnmzcoaFdKknJZkrnZRxJVC9FVJpS-CgdtIqxOoeA5qAOl-ZLw1nDdpTU-JHzJT1Ju_YMBH08_vHU_Rtc-nXwoFm7UNVfuMwGc8jpWvRuu0ZfgFxvDOUUzk1yx_vGiRfDO8UZpQNKbeyGcR9YP2VpiKKKePlONw61-KeQnkNX9XoROzhE3iAGcZbS85aYkxjsqaKXPanCRRkjbsmxaFuL10BWJCkkvSJA.QMhjR6_Iv7UPr7GiRhvj_i9rQ7QlKw7qAFnbu_n-R70&dib_tag=se&keywords=short%2B5%2F16%2Binch%2Bbox%2Bwrench&qid=1787928034&sprefix=short%2B5%2F16%2Binch%2Bbox%2Bwrench%2Caps%2C110&sr=8-1&th=1)
+* Hand Tools - Basic set of screwdrivers, needle-nose pliers, etc.
+* [5/16 inch wrench for SMA connectors]
 * [Anti-static ESD wrist strap](https://www.amazon.com/gp/aw/d/B0042TLA90/?_encoding=UTF8&pd_rd_plhdr=t&aaxitk=c0e32b6a0381d72fc649bba20b22aa10&hsa_cr_id=0&qid=1787067486&sr=1-2-9e67e56a-6f64-441f-a281-df67fc737124&i=aps&aref=TOcSSHbF6V&ref_=sbx_s_sparkle_sbtcd_asin_1_img&pd_rd_w=Enp7K&content-id=amzn1.sym.8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68%3Aamzn1.sym.8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68&pf_rd_p=8de9b3d5-f5c5-40e9-9b39-d65f08d6ea68&pf_rd_r=7C4AX12VJD8QVESB6NE5&pd_rd_wg=0KGDk&pd_rd_r=09e1c5e7-fa9d-45a9-a998-d74b25fdc194&th=1) - Inexpensive security against electronics parts damage
 * Hot glue gun - very helpful for securing parts temporarily. Use sparingly.
 * 3D printer - Handy for producing the 'official' component hold-downs. Nice to have but not a necessity.

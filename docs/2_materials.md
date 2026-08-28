@@ -46,6 +46,7 @@ You should have a basic set of hand tools of the kind you might use to build a t
 * [Cable Tie Gun - Fastening and Cutting Tool](https://www.amazon.com/dp/B07G5X7DMC) - Handy for a neat job, but optional.
 * [Small Hand Drill and Bits for Electronics Work](https://www.amazon.com/dp/B002TFEKDM)
 * [Hand Taper Reamer](https://www.amazon.com/dp/B086HLMCKD) - Not essential but highly recommended to easily make holes the right size
+* [1/2" Rubber Grommets](https://www.amazon.com/dp/B0BTHPG14Z) - Protect the cables! Split them before installing to make things easier
 
 ### Materials
 

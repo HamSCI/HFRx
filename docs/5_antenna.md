@@ -17,7 +17,9 @@ This page contains deployment protocols.
 
 # Connecting to the Antenna
 
-For the HF receiver, the current standard antenna is the DX Engineering [RSEAV-1](https://www.dxengineering.com/parts/dxe-rseav-1). 
+The current standard antenna selection for the PSWS HRFx is the DX Engineering Receive Short Element Active Vertical Antenn [RSEAV-1](https://www.dxengineering.com/parts/dxe-rseav-1). 
+
+This antenna offer low noise radio frequency reception from 40 kHz to 30 MHz. A three-section 8.5 ft. (2.6m) aluminum tubing whip antenna and DXE-AVA-3 Active Matching Unit provide significantly better weak signal reception than other active receive antennas and full-size transmit-capable antennas, with reduced noise and lower spurious signal interference. 
 
 <img width="674" height="1600" alt="image" src="https://github.com/user-attachments/assets/c646925b-6bad-4518-9c99-8c716e1db97f" />
 

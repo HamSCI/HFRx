@@ -21,7 +21,7 @@ The current standard antenna selection for the PSWS HRFx is the DX Engineering R
 
 This antenna offer low noise reception from 40 kHz to 30 MHz. The provided three-section 8.5 ft. (2.6m) aluminum tubing whip antenna connected to the internal DXE-AVA-3 Active Matching-amplifier Unit provide significantly better weak signal reception than other active receive antennas and full-size transmit-capable antennas, with reduced noise and lower spurious signal interference. 
 
-<img width="540" height="960" alt="image" src="https://github.com/user-attachments/assets/c646925b-6bad-4518-9c99-8c716e1db97f" />
+<img width="540" height="1100" alt="image" src="https://github.com/user-attachments/assets/c646925b-6bad-4518-9c99-8c716e1db97f" />
 
 Normally this antenna is provided on a backplane mounted directly on a 6' copper ground rod (not provided). This exposes the antenna and the active matching-amplifier unit to the elements. While the RSEAV-1's AVA-3 enclosure box itself is weather-resistant, the extra step of enclosing the unit in a suitable weatherproof box ensures that both the RG-6 RF coax and 12VDC power connections are protected from adverse weather, further insuring the dependable performance of the HFRx PSWS.
 

@@ -5,19 +5,9 @@ permalink: /build/
 mermaid: true
 ---
 ## Introduction
-{:.no_toc}
-Put your build instructions here! Use lots of photos and detail.
 
+This section will give you a good idea what you'll be creating. It may seem complex at first, but rest assured that once the components are secured and the build begins, it should go smoothly. You can always get support at [HamSCI PSWS Google Groups](https://groups.google.com/u/1/g/hamsci-psws/c/WqDS60dsGxQ).Note that there are links to detailed pages for items like the antenna that should be referred to as well.
 
-## Table of Contents 
-{:.no_toc}
-* TOC
-{:toc}
-
-
-The standard antenna at the time of writing is the DX Engineering [RSEAV-1](https://www.dxengineering.com/parts/dxe-rseav-1).
-
-For a roof installation: https://www.dxengineering.com/parts/dxe-rf-pro-1b
 
 ```mermaid
 flowchart TD
@@ -47,6 +37,7 @@ The components are mounted on an aluminum plate held in place by 3D printed hold
 [Leo Bodnae LBE-1420 GPS Disciplined Oscillator](https://github.com/simontheu/lbe-1420)  
 [TIS 30Mhz Filter-preamp](https://turnislandsystems.com/wp-content/uploads/2024/10/Filter-Preamp-v1-rev-6.pdf)  
 [DX Engineering DXE-RSEAV1 Active Antenna](https://static.dxengineering.com/global/images/instructions/dxe-rseav-1fvi.pdf?_gl=1*aiifno*_gcl_au*MjY1MDA5NDMzLjE3NzcxMjkxODI.*_ga*ODc1MzkyNjAxLjE3NzcxMjkxODI.*_ga_NZB590FMHY*czE3Nzg1MjAwMzUkbzYkZzEkdDE3Nzg1MjAwNTgkajM3JGwwJGgw)
+[Loop Antenna Alternative](https://www.dxengineering.com/parts/dxe-rf-pro-1b)
 
 ### Component Layout  
 In this instance the system components are mounted on a [6"x8"x1/16" 6061/T651 Aluminum Sheet Metal aluminum plate](https://www.amazon.com/PATIKIL-Aluminum-Protective-Rectangle-Lndustry/dp/B0DHR7TLNX?pd_rd_w=YnrUL&content-id=amzn1.sym.6bb79025-718b-4ad1-b8ec-68027fb35564&pf_rd_p=6bb79025-718b-4ad1-b8ec-68027fb35564&pf_rd_r=T4XHH2GPPG2ZPEGDFS6F&pd_rd_wg=xPK13&pd_rd_r=6daeec44-af98-4005-ae55-ffafdbc088e7&pd_rd_i=B0DHR7TLNX&ref_=pd_bap_d_grid_rp_hxwhrp_sspa_dk_bia_0_18_t&th=1) and contained in a [Zultech 9.1"x7.3"x3.9" Project Enclosure](https://www.amazon.com/dp/B08Y7GWKGR) using metric M3 hardware  
@@ -77,7 +68,7 @@ Also, attach the rubber pad to the underside of the SDR's board and the copper t
 
 ![image](./assets/images/K3DFD-clockmod.png)
 ---
-## Assemble and Configure the DX Engineering DXE-RSEAV-1 Short Vertical Active Antenna  
+## Assemble and Configure the DX Engineering DXE-RSEAV-1 Short Vertical Active Antenna  [Detailed Link](https://hamsci.github.io/HFRx/antenna/)   
 1. The first task is to change the internal J2 and J3 jumper settings to disable the Bias-T power source feature. Move both J2 and J3 jumpers from the 1-2 position to the 2-3 position. Then the required 12VDC will be supplied to the type-F connector on the front of the antenna box.  
 
 ![image](./assets/images/K3DFD-antenna.png)

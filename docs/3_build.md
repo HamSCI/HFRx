@@ -16,7 +16,6 @@ flowchart TD
     Computer -->|5V USB Power| Bodnar
     HF[fa:fa-tower-cell HF Antenna] -->|F/F| CMC[Common Mode Choke]
     CMC -->|F/F| 
-    SMS -->|Input F/F| LPF[Low Pass Filter]
     LPF --> |Out SMA/SMA| RX888
     RX888 --> |Data USB-B/USB-A| Computer
     Computer --> Peripherals[Peripherals fa:fa-computer-mouse fa:fa-desktop fa:fa-keyboard]

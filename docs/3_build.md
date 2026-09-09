@@ -15,7 +15,6 @@ flowchart TD
     Bodnar -->|Reference Clock Signal| RX888[RX888 SDR]
     Computer -->|5V USB Power| Bodnar
     HF[fa:fa-tower-cell HF Antenna] -->|F/F| CMC[Common Mode Choke]
-    CMC -->|F/F| 
     LPF --> |Out SMA/SMA| RX888
     RX888 --> |Data USB-B/USB-A| Computer
     Computer --> Peripherals[Peripherals fa:fa-computer-mouse fa:fa-desktop fa:fa-keyboard]

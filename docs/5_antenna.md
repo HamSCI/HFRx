@@ -4,11 +4,7 @@ title: Antenna
 permalink: /antenna/
 ---
 
-## Introduction
-
-This page contains information about the DX Engineering RSEAV-1 Active Antenna. 
-
-# Connecting to the Antenna
+# Building and Connecting the DX Engineering DXE-RSEAV-1 Active Antenna
 
 The current standard antenna selection for the PSWS HRFx is the DX Engineering Receive Short Element Active Vertical Antenna System [RSEAV-1](https://www.dxengineering.com/parts/dxe-rseav-1). 
 

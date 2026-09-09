@@ -26,7 +26,7 @@ While it allows for one cable to be used for both the RF and the DC, since HamSC
 
 <img width="1707" height="950" alt="image" src="https://github.com/user-attachments/assets/cb283d4b-d0cf-437b-a40e-7a77cff32dce" />
 
-Then, to power the antenna, connect a regulated 12VDC >1A power supply to a run of stranded #14 red/black wire and then to the AVA-3's lower F-type female connector via an F Male Power Adapter connector.
+Then, to power the antenna, connect a regulated 12VDC >1A power supply to a run of stranded #14 red/black wire and then to the AVA-3's lower F-type female connector via an F Male Power Adapter connector. Keep in main that for a 12V DC systems, keeping the total voltage drop under 3% is generally standard practice to ensure equipment operates correctly. So 12VDC using #14 wire over a 100-foot run will result in higher than 3% voltage loss. So if your antenna power run is greater that 100' you'll need #12 wire gauge to mitigate that loss.
 
 <img width="540" height="960" alt="image" src="https://github.com/user-attachments/assets/0d3e73a9-dcb8-4f74-bd75-c6ccab19c0ee" />
 

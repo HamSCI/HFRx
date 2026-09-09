@@ -15,12 +15,12 @@ flowchart TD
     Bodnar -->|Reference Clock Signal| RX888[RX888 SDR]
     Computer -->|5V USB Power| Bodnar
     HF[fa:fa-tower-cell HF Antenna] -->|F/F| CMC[Common Mode Choke]
-    CMC -->|F/F| Bias[Bias Tee]
-    Bias -->|Input F/F| LPF[Low Pass Filter]
+    CMC -->|F/F| 
+    SMS -->|Input F/F| LPF[Low Pass Filter]
     LPF --> |Out SMA/SMA| RX888
     RX888 --> |Data USB-B/USB-A| Computer
     Computer --> Peripherals[Peripherals fa:fa-computer-mouse fa:fa-desktop fa:fa-keyboard]
-    Astron(Astron RS-12A, modified) --> |19V| Computer
+    Power(Linera, Regulated) --> |19V| Computer
 ```
 
 ## Hardware Mods, DXE Active Antenna, BeeLink PC Linux Server Install and WSPRDdaemon Configuration

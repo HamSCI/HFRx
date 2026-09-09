@@ -3,21 +3,15 @@ layout: page
 title: Materials
 permalink: /materials/
 ---
-## Introduction
-{:.no_toc}
+## Introduction -
+
 At this time there is no single source of the necessary items needed to successfully build and commission a HFRx PSWS. The components and materials are generally easy to purchase through HamSCI partner sources like [Turn Island System](https://turnislandsystems.com), [TAPR](https://tapr.org/) and even Amazon. The most challenging item to source is the RX-888 MKII SDR. Some builders have had good success ordering their SDR from [opensourcesdrlabs.com.](https://opensourcesdrlab.com/).   
 
 You won't need a degree in engineering or science, but you should be comfortable with small electronic kit construction. If you have passed your Amateur Radio Tech Exam or regional equivelent, you should be able to build your HFRx PSWS.  
 
 One important thing to keep in mind is that there is no 'required' way to physically assemble a PSWS. Some of the materials listed here, like the 3D-printed hold-downs are items that represent a 'recommended' but not required build design.    
 
-## Table of Contents 
-{:.no_toc}
-* TOC
-{:toc}
-
-
-## Working/Assembly Space Requirements
+### Working/Assembly Space Requirements -
 
 Your working space should be well-lit - [a magnifying lamp is nice](https://www.amazon.com/dp/B0F5GTSHPK) - and secure enough to leave your project safely between assembly sessions.
 
@@ -26,7 +20,7 @@ One of the best helpers in any electronics assembly working area is a [silicon m
 * You'll need an Internet connection to download support software and for connectivity for the HFRx PSWS's Beelink Mini PC
 * A Workstation or Laptop PC to configure the Leo Bodnar LBE-1420 GPS Disciplined Oscillator.
 
-### Tools
+### Tools -
 
 <img width="973" height="425" alt="image" src="https://github.com/user-attachments/assets/d90c35d3-41b4-4a5e-a108-7acace859d7a" />
 
@@ -44,7 +38,7 @@ One of the best helpers in any electronics assembly working area is a [silicon m
 * [Small Hand Drill and Bits for Electronics Work](https://www.amazon.com/dp/B002TFEKDM)
 * [Hand Taper Reamer](https://www.amazon.com/dp/B086HLMCKD) - Not essential but highly recommended to easily make holes the right size
 
-### Materials
+### Materials -
 
 <img width="973" height="450" alt="image" src="https://github.com/user-attachments/assets/5f431599-0557-450c-90d3-4180b52f7f38" />
 
@@ -57,5 +51,11 @@ One of the best helpers in any electronics assembly working area is a [silicon m
 * [Hex button Metric Screw Assortment](https://www.amazon.com/dp/B0FM3G5K6H) - Handy hardware assortment to affix components to the backboard
 * [Nylon Spacers and Offsets](https://www.amazon.com/dp/B0BNB1K5P2) - More handy hardware for a neat build!
 
-### Components
-* long wire
+### Components -
+* RX888-SDR Receiver
+* BeeLink Mini PC
+* Leo Bodnar LBE-1420 GPS Disciplined Ocscillator
+* Turn Island Systems 30MHz Filter - Preamp
+* TAPR GPS Clock and Thermal Kit
+* SMA interconnectors
+* More to come...

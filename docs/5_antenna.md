@@ -32,7 +32,7 @@ To make this DC/RF separation, a  simple internal adjustment to the amplifier is
 
 Then, to power the antenna, connect a regulated 12VDC >1A power supply to a run of stranded #14 red/black wire and then to the AVA-3's lower F-type female connector via an F Male Power Adapter connector. Keep in main that for a 12V DC systems, keeping the total voltage drop under 3% is generally standard practice to ensure equipment operates correctly. So 12VDC using #14 wire over a 100-foot run will result in higher than 3% voltage loss. So if your antenna power run is greater that 100' you'll need #12 wire gauge to mitigate that loss.
 
-Complete assembly instructions are documented in the DXE-RSEAV-1 manual.
+Complete assembly instructions are documented in the [DXE-RSEAV-1 manual](https://static.dxengineering.com/global/images/instructions/dxe-rseav-1fvi.pdf?_gl=1*gvjbi2*_gcl_aw*R0NMLjE3ODEyNzM4NDkuRUFJYUlRb2JDaE1JMGVibS1PNkJsUU1WNDBUX0FSM0ZCemZBRUFBWUFTQUFFZ0tyOF9EX0J3RQ..*_gcl_au*MzIxODM4MDkuMTc3OTgyNDIzMS4xMDIyNjczNzQyLjE3ODEyNzM4ODcuMTc4MTI3Mzg4Nw..*_ga*MTU2MjkyMTYwNy4xNzc5ODI0MjMx*_ga_NZB590FMHY*czE3ODI0OTA0MzkkbzQkZzAkdDE3ODI0OTA0NDkkajUwJGwwJGgw).   
 
 
 

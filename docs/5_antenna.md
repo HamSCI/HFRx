@@ -16,7 +16,7 @@ The DXE-RSEAV-1 Receive Short Element Active Antenna offer excellent low-noise r
 
 <img width="540" height="1300" alt="image" src="https://github.com/user-attachments/assets/c646925b-6bad-4518-9c99-8c716e1db97f" />
 
-This antenna is intended to be mounted on, or directly adjacent to a 6' copper ground rod (not provided) away from metal structures such as towers. *Note - If you have rocky or very dry soil, in addition to the ground rod, you should install at least (4) 15' radials on the ground surface to provide the necessary ground plane for effective operation.
+This antenna is intended to be mounted on, or directly adjacent to a 6' copper ground rod (not provided) away from metal structures such as towers. *Note - If you have rocky or very dry soil, in addition to the ground rod, you should install at least (4) 15' radials on the ground surface to provide the necessary ground plane for effective operation. Now 'technically' while you should use stranded copper strap from the antenna's ground connection to the ground rod, a length of #6 THHN copper wire will suffice.
 
 While the antenna's amplifier box is weather-resistant, the current backplane mounted design exposes the antenna and the active matching-amplifier unit's RG-6 'F-Type' connectors to the elements. The extra step of enclosing the unit in a [weatherproof enclosure](https://www.amazon.com/dp/B08Y7GWKGR) ensures that both the coax and 12VDC power connections are protected from adverse weather, further insuring the dependable performance of the HFRx PSWS.
 

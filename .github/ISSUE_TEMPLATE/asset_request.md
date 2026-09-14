@@ -1,8 +1,8 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: "ENH: "
-labels: enhancement
+name: OpenSpace asset request
+about: Suggest an OpenSpace asset relevant to this project
+title: "OS: "
+labels: OpenSpace
 
 ---
 

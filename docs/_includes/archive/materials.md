@@ -1,8 +1,4 @@
----
-layout: page
-title: Materials
-permalink: /materials/
----
+
 ## Introduction -
 
 At this time there is no single source of the necessary items needed to successfully build and commission a HFRx PSWS. The components and materials are generally easy to purchase through HamSCI partner sources like [Turn Island System](https://turnislandsystems.com), [TAPR](https://tapr.org/) and even Amazon. The most challenging item to source is the RX-888 MKII SDR. Some builders have had good success ordering their SDR from [opensourcesdrlabs.com.](https://opensourcesdrlab.com/).   

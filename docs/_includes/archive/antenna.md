@@ -1,8 +1,4 @@
----
-layout: page
-title: Antenna
-permalink: /antenna/
----
+
 
 # Building and Connecting the DX Engineering DXE-RSEAV-1 Active Antenna
 

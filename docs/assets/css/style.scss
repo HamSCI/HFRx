@@ -1,7 +1,9 @@
 ---
 ---
 
+$content-width: 1100px;   // must come before the import to widen Minima's layout
 @import "{{ site.theme }}";
+
 .site-title::before {
 	content: url("https://hamsci.github.io/hamsci-hardware/assets/images/favicon/favicon-32x32.png");
 	display: inline-block;
@@ -9,3 +11,75 @@
 	width: 38px;
 	top: 5px;
 }
+
+/* ---- Sidebar table of contents ---- */
+.doc-layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.sidebar {
+  flex: 0 0 200px;
+  position: sticky;
+  top: 1rem;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+  font-size: 0.95rem;
+  border-right: 1px solid #e8e8e8;
+  padding-right: 1rem;
+
+  .sidebar-title { font-weight: bold; margin-bottom: 0.5rem; }
+  ol { margin-left: 1.2rem; }
+  a.active { font-weight: bold; color: #111; }
+}
+
+/* ---- Archive page table of contents ---- */
+.archive-toc {
+  flex: 0 0 260px;              // open: fixed 260px column
+
+  &:not([open]) {               // closed: shrink to fit the "Contents" label
+    flex: 0 0 auto;
+    span { display: none; }     // closed: hide the word but keep the arrow
+  }
+
+  summary { cursor: pointer; }  // hand pointer on the clickable title
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+  }
+  ul ul {
+    margin-left: 1rem;
+    font-size: 0.9em;
+  }
+  li { margin-bottom: 0.3rem; }
+}
+
+html { scroll-behavior: smooth; }  // glide to a section instead of jumping
+
+.doc-content {
+  flex: 1;
+  min-width: 0;
+}
+
+@media (max-width: 800px) {
+  .doc-layout { flex-direction: column; }
+  .sidebar {
+    flex: 0 0 auto;     //natural height when stacked
+    position: static;
+    max-height: none;
+    border-right: none;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 1rem;
+  }
+}
+
+img { height: auto; }  // keep image proportions when resized
+
+.page-content img {
+  display: block;    // put the image on its own line
+  margin: 0 auto;    // split the leftover space equally on both sides
+}
+
+

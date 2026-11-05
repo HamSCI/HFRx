@@ -1,9 +1,4 @@
----
-layout: page
-title: Build
-permalink: /build/
-mermaid: true
----
+
 ## Introduction
 
 This section will give you a good idea what you'll be creating. It may seem complex at first, but rest assured that once the components are secured and the build begins, it should go smoothly. You can always get support at [HamSCI PSWS Google Groups](https://groups.google.com/u/1/g/hamsci-psws/c/WqDS60dsGxQ).Note that there are links to detailed pages for items like the antenna that should be referred to as well.
@@ -40,11 +35,11 @@ The components are mounted on an aluminum plate held in place by 3D printed hold
 ### Component Layout  
 In this instance the system components are mounted on a [6"x8"x1/16" 6061/T651 Aluminum Sheet Metal aluminum plate](https://www.amazon.com/PATIKIL-Aluminum-Protective-Rectangle-Lndustry/dp/B0DHR7TLNX?pd_rd_w=YnrUL&content-id=amzn1.sym.6bb79025-718b-4ad1-b8ec-68027fb35564&pf_rd_p=6bb79025-718b-4ad1-b8ec-68027fb35564&pf_rd_r=T4XHH2GPPG2ZPEGDFS6F&pd_rd_wg=xPK13&pd_rd_r=6daeec44-af98-4005-ae55-ffafdbc088e7&pd_rd_i=B0DHR7TLNX&ref_=pd_bap_d_grid_rp_hxwhrp_sspa_dk_bia_0_18_t&th=1) and contained in a [Zultech 9.1"x7.3"x3.9" Project Enclosure](https://www.amazon.com/dp/B08Y7GWKGR) using metric M3 hardware  
 
-![image](./assets/images/K3DFD-component-layout.png)
+![image]({{ "/assets/images/K3DFD-component-layout.png" | relative_url }})
 
 ### Drill Baseplate Mounting Holes
 Use a 4mm drill bit to open holes in the aluminum base plateplate and use M3 screws and nuts to place and affix the 3D hold downs. 
-![image](./assets/images/K3DFD-baseplate.png)
+![image]({{ "/assets/images/K3DFD-baseplate.png" | relative_url }})
 
 ### 3D printed Component Hold Downs
 You can use these .stl file to print the component hold down parts that affix the RX888, GPSDO and Filter-Preamp to the aluminum plate. ABS recommended although .20mm layer / 20% infill PLA works well  
@@ -52,7 +47,7 @@ You can use these .stl file to print the component hold down parts that affix th
 [.stl file for Leo Bodnar LBE-1420](https://drive.google.com/file/d/18yck0PaMf3_px7qnixWy3uBU1HxInkka/view?usp=sharing)  
 [.stl file for Turn Island Systems 30Mhz Filter-Preamp](https://drive.google.com/file/d/1gPSx4msNTrLTgFopmkgazG57UBLr8tAZ/view?usp=sharing)  
 
-![image](./assets/images/K3DFD-hardware.png)
+![image]({{ "/assets/images/K3DFD-hardware.png" | relative_url }})
 
 ## Perform Required RX888 clock-Thermal Kit Installation, DXE-RSEAV1 Antenna Bias-T Disable and LBE-1420 Clock Freq Configuration
 
@@ -64,17 +59,17 @@ Remove the endplate from the RX888 MkII SDR on the side with the USB socket. As 
 
 Also, attach the rubber pad to the underside of the SDR's board and the copper tape to the exposed side of the pad. This side will face and press against the body of the SDR to improve heat transfer.   
 
-![image](./assets/images/K3DFD-clockmod.png)
+![image]({{ "/assets/images/K3DFD-clockmod.png" | relative_url }})
 ---
 ## Assemble and Configure the DX Engineering DXE-RSEAV-1 Short Vertical Active Antenna  [Detailed Link](https://hamsci.github.io/HFRx/antenna/)   
 1. The first task is to change the internal J2 and J3 jumper settings to disable the Bias-T power source feature. Move both J2 and J3 jumpers from the 1-2 position to the 2-3 position. Then the required 12VDC will be supplied to the type-F connector on the front of the antenna box.  
 
-![image](./assets/images/K3DFD-antenna.png)
+![image]({{ "/assets/images/K3DFD-antenna.png" | relative_url }})
 
 3. Modifications to the outside mounting configuration
 The antenna's physical design is lacking in sufficient protection from rain, snow or other environmental challenges. I have elected to incorporate the entire unit into a sealed ABS utility box, mounted on a 4X4 pressure-treated post. The ground rod is 1/2" common copper pipe driven into the soil to 4'. Since the Bias-T option is deselected via J2 and J3, 12VDC is provided to the lower F connector via a simple adapter to the DC source. Both the RG6 and the 12ga DC wiring are 50' long and have nominal RF loss or voltage drop.  
 
-![image](./assets/images/K3DFD-antenna-board.png)
+![image]({{ "/assets/images/K3DFD-antenna-board.png" | relative_url }})
 
 ### Configure the Leo Bodnar LBE-1420 GPS clock output
 
@@ -82,14 +77,14 @@ The antenna's physical design is lacking in sufficient protection from rain, sno
 3. Connect the GPS to your PC — the LED will light up and start the configuration software  
 
 
-![image](./assets/images/K3DFD-LBE-1420.png)
+![image]({{ "/assets/images/K3DFD-LBE-1420.png" | relative_url }})
 
 4. In the `Hz` box, enter `27000000` and click **Set Frequency** > This sets the output to **27 MHz**, which is the required clock frequency for the RX-888  
 5. Disconnect the GPS from your PC  
 ### Confirm LBE-1420 GPSDO via the `Diagnostics` button
 
 
-![image](./assets/images/K3DFD-bodnar.png)
+![image]({{ "/assets/images/K3DFD-bodnar.png" | relative_url }})
 
 
 Connect the LBE-1420 GPS clock's SMA output to the RX-888 TAPR clock-modified GPS-in on the new end board, then connect both the RX888 and the LBE-1420 devices to the PSWS Beelink computer via their USB cables to a USB-3 port (blue tab).
@@ -100,7 +95,7 @@ Connect the LBE-1420 GPS clock's SMA output to the RX-888 TAPR clock-modified GP
 > - 🟢 Green — RX-888 to PC
 
 
-This completes the required component modifications. Next, check the [Software page](../https://hamsci.github.io/HFRx/software/) to configure the Beelink PC with Linux 24.04.n and WSPRDaemon.
+This completes the required component modifications. Next, check the [Software section](#software) to configure the Beelink PC with Linux 24.04.n and WSPRDaemon.
 
 
 

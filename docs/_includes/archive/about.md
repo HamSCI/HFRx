@@ -1,9 +1,4 @@
----
-layout: page
-title: About
-permalink: /about/
-mermaid: true
----
+
 
 ## What is a HamSCI HFRx Personal Space Weather Station?
 

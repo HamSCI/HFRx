@@ -1,9 +1,4 @@
----
-layout: page
-title: Software
-permalink: /software/
-mermaid: true
----
+
 # Installing the wsprdaemon Software: 
 
 ## BIOS Settings

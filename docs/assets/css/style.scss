@@ -34,6 +34,30 @@ $content-width: 1100px;   // must come before the import to widen Minima's layou
   a.active { font-weight: bold; color: #111; }
 }
 
+/* ---- Archive page table of contents ---- */
+.archive-toc {
+  flex: 0 0 260px;              // open: fixed 260px column
+
+  &:not([open]) {               // closed: shrink to fit the "Contents" label
+    flex: 0 0 auto;
+    span { display: none; }     // closed: hide the word but keep the arrow
+  }
+
+  summary { cursor: pointer; }  // hand pointer on the clickable title
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+  }
+  ul ul {
+    margin-left: 1rem;
+    font-size: 0.9em;
+  }
+  li { margin-bottom: 0.3rem; }
+}
+
+html { scroll-behavior: smooth; }  // glide to a section instead of jumping
+
 .doc-content {
   flex: 1;
   min-width: 0;
@@ -42,6 +66,7 @@ $content-width: 1100px;   // must come before the import to widen Minima's layou
 @media (max-width: 800px) {
   .doc-layout { flex-direction: column; }
   .sidebar {
+    flex: 0 0 auto;     //natural height when stacked
     position: static;
     max-height: none;
     border-right: none;
@@ -49,3 +74,12 @@ $content-width: 1100px;   // must come before the import to widen Minima's layou
     padding-bottom: 1rem;
   }
 }
+
+img { height: auto; }  // keep image proportions when resized
+
+.page-content img {
+  display: block;    // put the image on its own line
+  margin: 0 auto;    // split the leftover space equally on both sides
+}
+
+

@@ -1,2 +1,14 @@
+# Sidebar order. Each page's own headings are nested under it automatically.
+- title: About
+  url: /
+- title: Preparation
+  url: /preparation/
+- title: Materials
+  url: /materials/
+- title: Build
+  url: /build/
+- title: Operation
+  url: /operation/
 - title: Archive
   url: /archive/
+  toc: false   # the Archive page has its own contents list

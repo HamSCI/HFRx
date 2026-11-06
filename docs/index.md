@@ -2,8 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
-permalink: 
+layout: page
+title: About
+permalink: /
 ---
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/a0651ac2-537b-4f7f-a534-ad8915e99b9a" />
@@ -13,8 +14,36 @@ Welcome to our documentation site for the HamSCI HRFx Personal Space Weather Sta
 If you find an error or have a problem with any part of the project, please let us know by [**opening a new issue**](../issues/new). This leaves a public record of outstanding issues and solutions that can help others. 
 
 
----
+___
 &nbsp; 
+
+## About PSWS
+
+_text_
+
+### Theory of Operation
+
+_text_
+
+### Youtube Video
+
+_text_
+
+### Contributors
+
+_text_
+
+## Flowchart
+
+_text_
+
+## Outside Resources
+
+_text_
+
+### Glossary
+
+_text_
 
 
 

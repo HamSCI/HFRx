@@ -1,9 +1,11 @@
 ---
 ---
 
-$content-width: 1100px;   // must come before the import to widen Minima's layout
+// widen Minima's layout 
+$content-width: 1100px;   
 @import "{{ site.theme }}";
 
+// add HamSCI logo next to HFRx header 
 .site-title::before {
 	content: url("https://hamsci.github.io/hamsci-hardware/assets/images/favicon/favicon-32x32.png");
 	display: inline-block;
@@ -12,13 +14,14 @@ $content-width: 1100px;   // must come before the import to widen Minima's layou
 	top: 5px;
 }
 
-/* ---- Sidebar table of contents ---- */
+// puts sidebar and page content next to each other
 .doc-layout {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
 }
 
+// sidebar, fixed column, scrolls internally, duvuder kube
 .sidebar {
   flex: 0 0 200px;
   position: sticky;
@@ -32,9 +35,30 @@ $content-width: 1100px;   // must come before the import to widen Minima's layou
   .sidebar-title { font-weight: bold; margin-bottom: 0.5rem; }
   ol { margin-left: 1.2rem; }
   a.active { font-weight: bold; color: #111; }
+
+  // nests subheadings under Section and indents them
+  .page-toc {
+    list-style: none;
+    margin: 0.3rem 0 0.5rem 0.8rem;
+    font-size: 0.9em;
+    ul { list-style: none; margin-left: 0.8rem; }
+    li { margin-bottom: 0.2rem; }
+  }
 }
 
-/* ---- Archive page table of contents ---- */
+// make guide sidebar collapsible, shrink to width of arrow
+.sidebar-collapsible {
+  > summary { cursor: pointer; }
+
+  &:not([open]) {                       // closed: shrink to fit the arrow
+    flex: 0 0 auto;
+    > summary span { display: none; }   // hide the word, keep the arrow
+  }
+
+  .sidebar-pages details > summary { cursor: pointer; }
+}
+
+// archive table of contents (proof of concept, delete when the archive is removed)
 .archive-toc {
   flex: 0 0 260px;              // open: fixed 260px column
 
@@ -58,11 +82,13 @@ $content-width: 1100px;   // must come before the import to widen Minima's layou
 
 html { scroll-behavior: smooth; }  // glide to a section instead of jumping
 
+// expand guide content when sidebar is collapsed
 .doc-content {
   flex: 1;
   min-width: 0;
 }
 
+// sidebar stacks above content on narrow screens
 @media (max-width: 800px) {
   .doc-layout { flex-direction: column; }
   .sidebar {

@@ -1,13 +1,42 @@
-<nav class="sidebar" aria-label="Guide contents">
-  <p class="sidebar-title">Contents</p>
-  <ol>
-    {% for item in site.data.navigation %}
-    <li>
-      <a href="{{ item.url | relative_url }}"
-         {% if page.url == item.url %}class="active" aria-current="page"{% endif %}>
-        {{ item.title }}
-      </a>
+{%- comment -%}
+  Collapsible guide sidebar.
+  - The whole sidebar folds away (click "Contents")
+  - Every page in _data/navigation.yml is listed with its ## and ### headings
+        - change number of subsections in the TOC by changing h_max
+  - Only the current page's section starts open, the rest start closed
+  - Add `toc: false` to a navigation entry to list it as a plain link
+{%- endcomment -%}
+
+<details class="sidebar sidebar-collapsible" open>
+  <summary class="sidebar-title" title="Contents"><span>Contents</span></summary>
+  <ol class="sidebar-pages">
+    {%- for item in site.data.navigation %}
+    {%- assign is_current = false -%}
+    {%- if page.url == item.url -%}{%- assign is_current = true -%}{%- endif -%}
+    {%- assign page_toc = "" -%}
+    {%- unless item.toc == false -%}
+      {%- if is_current -%}
+        {%- capture page_toc -%}{% include toc.html html=content sanitize=true class="page-toc" h_min=2 h_max=3 %}{%- endcapture -%}
+      {%- else -%}
+        {%- assign other_page = site.pages | where: "url", item.url | first -%}
+        {%- assign other_html = other_page.content | markdownify -%}
+        {%- assign other_base = item.url | relative_url -%}
+        {%- capture page_toc -%}{% include toc.html html=other_html sanitize=true class="page-toc" h_min=2 h_max=3 base_url=other_base %}{%- endcapture -%}
+      {%- endif -%}
+    {%- endunless -%}
+    {%- capture page_link -%}
+      <a href="{{ item.url | relative_url }}"{% if is_current %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
+    {%- endcapture %}
+    <li{% if is_current %} class="current"{% endif %}>
+      {%- if page_toc contains "<li" %}
+      <details{% if is_current %} open{% endif %}>
+        <summary>{{ page_link }}</summary>
+        {{ page_toc }}
+      </details>
+      {%- else %}
+      {{ page_link }}
+      {%- endif %}
     </li>
-    {% endfor %}
+    {%- endfor %}
   </ol>
-</nav>
+</details>

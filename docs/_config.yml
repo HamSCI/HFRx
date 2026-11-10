@@ -36,7 +36,8 @@ header_pages:
   - materials.md
   - build.md
   - operation.md
-  - archive.md
+  - archive.md # remove when complete
+  - contributors.md # contains documentation planning, may remove when complete
 
 # Exclude from processing.
 # The following items will not be processed, by default.

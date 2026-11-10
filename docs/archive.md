@@ -17,7 +17,7 @@ mermaid: true
 
 <div class="doc-content" markdown="1">
 
-This page holds all the old (as of 11/4/2026) documentation.
+This page holds all the old (as of 2026-11-04) documentation.
 
 # About
 {% include archive/about.md %}

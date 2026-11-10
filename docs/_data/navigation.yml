@@ -12,3 +12,6 @@
 - title: Archive
   url: /archive/
   toc: false   # the Archive page has its own contents list
+- title: Contributors
+  url: /contributors/
+  toc: false    # document planning (contributors) will have its own toc

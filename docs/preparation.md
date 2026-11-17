@@ -10,9 +10,9 @@ permalink: /preparation/
 
 _text_
 
-## Deployment Requirements
+## Site Requirements
 
-_text_
+_Siting requirements for the station_
 
 ## Tools and Techniques
 

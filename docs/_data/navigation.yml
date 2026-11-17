@@ -5,8 +5,12 @@
   url: /preparation/
 - title: Materials
   url: /materials/
-- title: Build
-  url: /build/
+- title: Receiver
+  url: /rcvr/
+- title: Software
+  url: /software/
+- title: HF Antenna
+  url: /antenna/
 - title: Operation
   url: /operation/
 - title: Archive

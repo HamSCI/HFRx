@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Build
-permalink: /build/
+title: Receiver Hardware
+permalink: /rcvr/
 ---
 
 **Release:** draft · **Date:** 2026-11-17 · **Authors:** Santino Gregorovic, Jason Lai, Sanika Chaturvedi · **License:** to be decided

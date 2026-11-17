@@ -322,7 +322,8 @@ Standard names are shortened in the tables: 82079 (IEC/IEEE 82079-1), 26514, DIN
 
 Example of SM-3:
 
-> **⚠ WARNING** Lightning. Disconnect the coax from the receiver before a storm. A strike can travel along the coax and cause fire or electric shock.
+> **⚠ DANGER** Overhead power lines. Keep the antenna and ground rod away from overhead power lines and other electric circuits. Contact with these circuits can cause serious injury or death.
+{: .callout-danger}
 
 </details>
 

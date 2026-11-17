@@ -344,15 +344,15 @@ These steps come from the senior team's build [CAP].
 {: .callout-tip}
 
 
-### Computer Software
+## Computer Software
 
-#### Setting up a new station
+### Setting up a new station
 
 You have a USB stick and a small computer with a radio receiver attached. About an hour from now the machine will record and decode HF signals on its own. It sends nothing to the outside world until you have checked it and said so. Read the first section before you touch anything: it is the only part that needs preparation.
 
 **This erases the computer's internal disk.** Everything on it goes, with no further warning once you boot from the stick. Use a machine you intend to dedicate to this.
 
-#### 1 · Collect these first
+### 1 · Collect these first
 
 The setup wizard asks for these after the machine has installed itself. Written down in advance, they take two minutes to type. Only the first two are required.
 
@@ -373,7 +373,7 @@ The setup wizard asks for these after the machine has installed itself. Written 
 
 **No PSWS account yet?** Press Enter at the PSWS station ID. The station records and works; PSWS uploads start once you add the IDs and register the station's key.
 
-#### And physically, before you begin
+### And physically, before you begin
 
 - A mini-PC with **16 GB of RAM or more** and an internal **NVMe** drive. The installer writes only to an NVMe drive.
 - The **RX888 Mk2 receiver and the LBE-1421 GPS clock** plugged in and powered before the first boot. A magnetometer, a TS-1 time injector or a local GPS time server, if you have one, can plug in now too; the station finds them by itself. Anything missing does not stop the install; you can add it later.
@@ -381,7 +381,7 @@ The setup wizard asks for these after the machine has installed itself. Written 
 - A screen and keyboard on the machine, until the wizard finishes.
 - A network: a cable to your router (the machine takes its address automatically), or a Wi-Fi network you join during setup. Sites with only IPv6 work too.
 
-#### 2 · Get the image and write the stick
+### 2 · Get the image and write the stick
 
 Your fleet admin sends you two files, or download links for them: the image, sigmond-appliance-v3.78-20261021-release.img (about 5.6 GB), and its checksum, …release.sha256. A later release carries its own version and date in the name; use the names you were given. Keep both in one folder and check the image:
 
@@ -410,9 +410,9 @@ Getting /dev/sdX wrong overwrites that computer's own disk, immediately and with
 
 Afterwards your computer may show one small drive from the stick, often named "EFI" or "NO NAME". That is normal.
 
-#### 3 · Install
+### 3 · Install
 
-#### Boot from the stick
+### Boot from the stick
 
 With the receiver connected, power on and boot from the USB stick: press the boot-menu key as it starts (usually F7, F11, F12 or Del) and pick the USB entry. If no menu appears, turn **Fast Boot off** in the BIOS setup. The installer then runs **by itself**, asking nothing. This is when the internal disk gets erased.
 
@@ -434,7 +434,7 @@ Insert **the same stick** again, into any port, and leave it in. The screen answ
 
 &#x20;Sigmond USB detected (…).  Importing the decoder VM (\~3 min). LEAVE THE STICK IN.
 
-#### Answer the wizard
+### Answer the wizard
 
 The setup questions appear on the screen. **Leave the stick in.**
 
@@ -458,11 +458,11 @@ The machine now tunes itself: it reserves processor cores for the receiver and h
 
 After you power it on, the screen shows a status panel. While the panel says **STATION IS STILL BUILDING**, leave it alone: on a fresh machine that can take tens of minutes. The panel also shows every address and login you need next. From here on you use the station from another computer.
 
-#### 4 · Check it, then turn on uploads
+### 4 · Check it, then turn on uploads
 
 **A new station starts with its site sink switch at off.** It records and decodes, but sends no spots or data to wsprnet, pskreporter.info, wsprdaemon.org or PSWS. Only its heartbeat, the five-minute health report, goes out. That way nothing leaves until you know the station hears well and reports the right callsign and grid.
 
-#### Ask the station how it stands
+### Ask the station how it stands
 
 About fifteen minutes after the panel stops saying it is building, press Enter at the station's keyboard and log in to the host (see section 6). Then type one command:
 
@@ -515,7 +515,7 @@ An uploads line that shows FAIL with off or hold and some other reason means som
 
 **What ships, and when.** When you run smd sink upload, the station sends the GRAPE and magnetometer packages for today and yesterday (UTC), even if it built them while the switch read off. Older packages stay on the station, and nothing else recorded before the switch ships. The station packs each UTC day's data after that day ends, between 01:00 and about 05:00 UTC; a package not built yet goes out once the station builds it. While a packing job runs, smd sink upload refuses, names the job, and asks you to try again when it ends.
 
-#### 5 · Things that look wrong and are not
+### 5 · Things that look wrong and are not
 
 | **You see**                                                                                    | **What it means**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | :--------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -549,7 +549,7 @@ The status panel on the machine's screen lists everything below with your real a
 
 **One password for the whole station.** It starts as hamsci-sigmond. The wizard copies the host's root password to the recorder's accounts, so the recorder accepts the same one. **Change it**: run passwd on the host and on the recorder. Root login over SSH on the recorder stays off.
 
-#### Turning remote access off and on
+### Turning remote access off and on
 
 Remote access starts on. To change that, log in to the recorder and type:
 
@@ -561,7 +561,7 @@ smd remote status     show the state
 
 Off stops the tunnel your fleet admin uses and changes nothing else: every upload keeps running. The status panel on the machine's screen shows which state holds.
 
-#### Register for PSWS uploads
+### Register for PSWS uploads
 
 If you gave PSWS IDs, log in to the recorder. Its login banner shows this machine's public upload key. Paste that key into the PSWS portal for your station (pswsnetwork.eng.ua.edu), then run:
 

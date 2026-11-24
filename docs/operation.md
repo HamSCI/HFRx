@@ -8,8 +8,8 @@ permalink: /operation/
 
 ## Operation
 
-_text_
+_Some information about dashboard_
 
 ## Troubleshooting
 
-_text_
+_How to file a Github Issue; whom to contact_

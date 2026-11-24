@@ -4,8 +4,10 @@ title: Computer and Software
 permalink: /software/
 ---
 
-## Computer Software
+## Computer 
+_info about Beelink; suggested purchase links_
 
+## Software
 ### Setting up a new station
 
 You have a USB stick and a small computer with a radio receiver attached. About an hour from now the machine will record and decode HF signals on its own. It sends nothing to the outside world until you have checked it and said so. Read the first section before you touch anything: it is the only part that needs preparation.
